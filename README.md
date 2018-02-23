@@ -15,7 +15,6 @@ Name of the group: TEAM 03 (A.K.A. The Young Team)
 You can check our Overleaf report [here]()
 
 ## Project slides
-- Google slides for Week 1
 - Google slides for Week 2 (T.B.A.)
 - Google slides for Week 3 (T.B.A.)
 - Google slides for Week 4 (T.B.A.) 
