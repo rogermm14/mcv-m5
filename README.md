@@ -14,3 +14,7 @@ Deep learning is employed to face 3 main tasks: object recognition, object detec
 
 ## Project report
 You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpqkgx).
+
+## Week 1
+You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy).  
+And [here](https://www.overleaf.com/read/bpwcjjmpnnsy) you can find our summary of the ResNet paper.  
