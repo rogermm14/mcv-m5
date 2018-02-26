@@ -17,4 +17,4 @@ You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpq
 
 ## Week 1
 You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy).  
-Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy).
+Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg).
