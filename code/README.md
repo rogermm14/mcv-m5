@@ -7,7 +7,7 @@
     - Baseline [TT100K dataset]
     
     ```
-    python train.py -c config/tt100k_classif.py -e vgg_default
+    python train.py -c config/tt100k_classif.py -e vgg_default -l /home/master/ -s /data/module5
     ```
     
     - Substract mean and normalize by standard deviation (computed from training set)  [TT100K dataset]
