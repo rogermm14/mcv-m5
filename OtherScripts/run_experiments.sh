@@ -40,5 +40,5 @@ python train.py -c config/resnet_tt100k_classif_baseline.py -e resnet_tt100k_cla
 
 # Fine-tuning based on ImageNet weights [TT100K dataset]
 
-python train.py -c config/resnet_tt100k_classif_finetune.py -e resnet_tt100k_classif_finetune
+# python train.py -c config/resnet_tt100k_classif_finetune.py -e resnet_tt100k_classif_finetune
 
