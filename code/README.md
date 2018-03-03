@@ -13,18 +13,18 @@
     - Substract mean and normalize by standard deviation (computed from training set)  [TT100K dataset]
     
     ```
-    python train.py -c config/tt100k_classif_preprocess.py -e vgg_preprocessing
+    python train.py -c config/tt100k_classif_preprocess.py -e vgg_preprocessing -l /home/master/ -s /data/module5
     ```
     
-    - Use random crops of 224x224 to feed the net[TT100K dataset]
+    - Use random crops of 224x224 to feed the net [TT100K dataset]
     
     ```
-    python train.py -c config/tt100k_classif_crops.py -e vgg_input_crops
+    python train.py -c config/tt100k_classif_crops.py -e vgg_input_crops -l /home/master/ -s /data/module5
     ```
     
-    - Use resize of 224x224 to feed the net [TT100K dataset]
+    - Use resized images of 224x224 to feed the net [TT100K dataset]
     
     ```
-    python train.py -c config/tt100k_classif_resize.py -e vgg_input_resize
+    python train.py -c config/tt100k_classif_resize.py -e vgg_input_resize -l /home/master/ -s /data/module5
     ```
     
