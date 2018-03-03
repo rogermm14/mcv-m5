@@ -17,3 +17,8 @@ python train.py -c config/vgg_tt100k_classif_crops.py -e vgg_input_crops
 # Transfer learning to another dataset [TT100K dataset]
 
 python train.py -c config/vgg_tt100k_classif_resize.py -e vgg_input_resize  
+
+# Transfer learning to another dataset [TT100K dataset -> BelgiumTS dataset]
+
+python train.py -c config/vgg_belgiumTS_classif_transfer.py -e vgg_belgiumTS_classif_transfer
+
