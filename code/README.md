@@ -1,6 +1,6 @@
 # About how to run the code
 
-#### Object recognition
+## Object recognition
 
   - VGG 
  
