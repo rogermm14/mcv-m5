@@ -32,14 +32,14 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 - [x] Train from scratch.    
 - [x] Analyze train/validation/test sets and interpret results.    
 - [x] Comparison between crop and resize to feed the net.   
-- [x] Transfer learning to BelgiumTS dataset.   
+- [x] Transfer learning to BelgiumTS dataset.  
 **TASK 2. Train VGG using KITTI dataset**    
 - [x] Train from scratch.    
 - [x] Fine-tunning based on the ImageNet weights.    
 **TASK 3. Train ResNet using TT100K dataset**    
 - [x] Implementation of ResNet-50 with Keras and integration to the framework.       
 - [x] Train from scratch.    
-- [x] Fine-tunning based on the ImageNet weights.   
+- [x] Fine-tunning based on the ImageNet weights.  
 **TASK 4. Boost perfromance of the network**    
 - [x] Retrain all layers of ResNet-50 using ImageNet weights as initialization.      
 - [x] Use data augmentation to boost the performance.       
