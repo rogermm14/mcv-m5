@@ -24,7 +24,7 @@ Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/
 
 ## Week 2
 Evaluation and comparison of the performance of the VGG-16 and the ResNet-50 architectures for object recogniton.    
-The TSingHua-TenCent 100K (TT100K) dataset **[3]** and the Belgium Traffic Sign (BelgiumTS) dataset **[4]** are used to train for traffic sign recognition. The KITTI dataset **[5]** is used to train for recognition of vehicles, pedestrians and cyclists.    
+The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset **[3]** and the Belgium Traffic Sign ([BelgiumTS](http://btsd.ethz.ch/shareddata/)) dataset **[4]** are used to train for traffic sign recognition. The [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php) dataset **[5]** is used to train for recognition of vehicles, pedestrians and cyclists.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
