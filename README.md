@@ -47,7 +47,7 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
   - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).       
 
 #### Contributions to the code:    
-+ `code/models/resnet.py`. Contains ResNet-50 implementation (build_resnet50) + mixed architecture (build_resnet50_v2).   
++ `code/models/resnet.py`. ResNet-50 implementation (build_resnet50) + mixed architecture (build_resnet50_v2).   
 + `other_scripts/analyze_dataset.py`. Analyzes the elements per class in the train/validation/test splits of a dataset.   
 + `other_scripts/run_experiments.py`. Bash script to execute all experiments on object recognition.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder.   
