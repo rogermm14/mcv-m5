@@ -2,7 +2,7 @@
 
 ## Object recognition
 
-  - Experiments with VGG-16 
+  - Experiments with VGG-16:    
  
     - Baseline **[TT100K dataset]**
     
@@ -40,7 +40,7 @@
     python train.py -c config/vgg_kitti_classif_finetune.py -e vgg_kitti_classif_finetune
     ``` 
 
-  - Experiments with ResNet-50
+  - Experiments with ResNet-50:   
 
     - Baseline **[TT100K dataset]**
     
