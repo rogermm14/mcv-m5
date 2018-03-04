@@ -28,19 +28,20 @@ The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (Belgium
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
-**1. Train VGG using TT100K dataset**   
+
+1. **Train VGG using TT100K dataset**   
   - [x] Train from scratch.    
   - [x] Analyze train/validation/test sets and interpret results.    
   - [x] Comparison between crop and resize to feed the net.   
-  - [x] Transfer learning to BelgiumTS dataset.  
-**2. Train VGG using KITTI dataset**   
+  - [x] Transfer learning to BelgiumTS dataset.   
+2. **Train VGG using KITTI dataset**   
   - [x] Train from scratch.    
   - [x] Fine-tunning based on the ImageNet weights.    
-**3. Train ResNet using TT100K dataset**    
+3. **Train ResNet using TT100K dataset**    
   - [x] Implementation of ResNet-50 with Keras and integration to the framework.       
   - [x] Train from scratch.    
   - [x] Fine-tunning based on the ImageNet weights.  
-**4. Boost perfromance of the network**    
+4. **Boost perfromance of the network**    
   - [x] Retrain all layers of ResNet-50 using ImageNet weights as initialization.      
   - [x] Use data augmentation to boost the performance.       
   - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).       
