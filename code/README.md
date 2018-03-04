@@ -4,6 +4,7 @@
 
 To run all experiments:  
     ```
+    cd ../other_scripts
     bash run_object_recognition_experiments.sh
     ```
 
