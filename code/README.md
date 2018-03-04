@@ -2,6 +2,11 @@
 
 ## Object recognition
 
+To run all experiments:  
+    ```
+    bash run_object_recognition_experiments.sh
+    ```
+
   - Experiments with VGG-16:    
  
     - Baseline **[TT100K dataset]**
