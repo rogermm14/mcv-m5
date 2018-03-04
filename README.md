@@ -19,12 +19,12 @@ You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpq
 You can check our slides [here](https://docs.google.com/presentation/d/1Vlk9INjR2pFve4IUYKt027kSwZSVRazxz6rFk_DsciM/edit?usp=sharing).
 
 ## Week 1
-You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) [1].
-Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) [2].
+You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) **[1]**.
+Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) **[2]**.
 
 ## Week 2
 Evaluation and comparison of the performance of the VGG-16 and the ResNet-50 architectures for object recogniton.    
-The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset are used to train for traffic sign recognition. The KITTI dataset is used to train for recognition of vehicles, pedestrians and cyclists.    
+The TSingHua-TenCent 100K (TT100K) dataset **[3]** and the Belgium Traffic Sign (BelgiumTS) dataset **[4]** are used to train for traffic sign recognition. The KITTI dataset **[5]** is used to train for recognition of vehicles, pedestrians and cyclists.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
@@ -36,7 +36,7 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
   - [x] Transfer learning to BelgiumTS dataset.   
 2. **Train VGG using KITTI dataset**   
   - [x] Train from scratch.    
-  - [x] Fine-tunning based on the ImageNet weights.    
+  - [x] Fine-tunning based on the ImageNet weights **[6]**.    
 3. **Train ResNet using TT100K dataset**    
   - [x] Implementation of ResNet-50 with Keras and integration to the framework.       
   - [x] Train from scratch.    
@@ -54,3 +54,10 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 
 
 ## References
+
+**[1]** Simonyan, Karen, and Andrew Zisserman. *Very deep convolutional networks for large-scale image recognition.* arXiv preprint arXiv:1409.1556 (2014).
+**[2]** He, Kaiming, et al. *Deep residual learning for image recognition.* Proceedings of the IEEE Conference on Computer vision and Pattern Recognition (CVPR). 2016.
+**[3]**  Zhu, Zhe, et al. *Traffic-sign detection and classification in the wild.* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.
+**[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.
+**[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.
+**[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.
