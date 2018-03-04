@@ -19,11 +19,11 @@ You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpq
 You can check our slides [here](https://docs.google.com/presentation/d/1Vlk9INjR2pFve4IUYKt027kSwZSVRazxz6rFk_DsciM/edit?usp=sharing).
 
 ## Week 1
-You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy).  
-Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg).
+You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) [1].
+Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) [2].
 
 ## Week 2
-We evaluated and compared the performance of the VGG-16 \cite{simonyan2014very} and the ResNet-50 \cite{he2016deep} models. The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset were used to train the for traffic sign recognition. The KITTI dataset \cite{geiger2012we} was used to train for recognition of vehicles, pedestrians and cyclists. See this [readme](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
+We evaluated and compared the performance of the VGG-16 and the ResNet-50 models. The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset were used to train the for traffic sign recognition. The KITTI dataset \cite{geiger2012we} was used to train for recognition of vehicles, pedestrians and cyclists. See this [readme](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
 **TASK 1. Train VGG using TT100K dataset**
@@ -47,3 +47,6 @@ We evaluated and compared the performance of the VGG-16 \cite{simonyan2014very} 
 + `other_scripts/analyze_dataset.py`. Analyzes the elements per class in the train/validation/test splits of a dataset.
 + `other_scripts/run_experiments.py`. Bash script to execute all experiments on object recognition.
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder.
+
+
+## References
