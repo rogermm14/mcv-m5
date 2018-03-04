@@ -31,13 +31,13 @@
     - Baseline **[KITTI dataset]**
     
     ```
-    python train.py -c config/vgg_kitti_classif.py -e vgg_tt100k_classif
+    python train.py -c config/vgg_kitti_classif.py -e vgg_kitti_classif
     ``` 
    
     - Fine-tuning based on ImageNet weights  **[KITTI dataset]**
     
     ```
-    python train.py -c config/vgg_kitti_classif_finetune.py -e vgg_tt100k_classif_finetune
+    python train.py -c config/vgg_kitti_classif_finetune.py -e vgg_kitti_classif_finetune
     ``` 
 
   - ResNet
