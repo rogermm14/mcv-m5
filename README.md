@@ -23,7 +23,7 @@ You can find our summary of the VGG paper [here](https://www.overleaf.com/read/b
 Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) [2].
 
 ## Week 2
-We evaluated and compared the performance of the VGG-16 and the ResNet-50 models. The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset were used to train the for traffic sign recognition. The KITTI dataset \cite{geiger2012we} was used to train for recognition of vehicles, pedestrians and cyclists. See this [readme](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
+We evaluated and compared the performance of the VGG-16 and the ResNet-50 architectures. The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset are used to train for traffic sign recognition. The KITTI dataset \cite{geiger2012we} is used to train for recognition of vehicles, pedestrians and cyclists. See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
 **TASK 1. Train VGG using TT100K dataset**
