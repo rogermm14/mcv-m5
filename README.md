@@ -24,7 +24,7 @@ Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/
 
 ## Week 2
 Evaluation and comparison of the performance of the VGG-16 and the ResNet-50 architectures for object recogniton.    
-The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset are used to train for traffic sign recognition. The KITTI dataset \cite{geiger2012we} is used to train for recognition of vehicles, pedestrians and cyclists.    
+The TSingHua-TenCent 100K (TT100K) dataset and the Belgium Traffic Sign (BelgiumTS) dataset are used to train for traffic sign recognition. The KITTI dataset is used to train for recognition of vehicles, pedestrians and cyclists.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
 
 #### Completed tasks:
@@ -47,7 +47,7 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
   - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).       
 
 #### Contributions to the code:    
-+ `code/models/resnet.py`. ResNet-50 implementation (build_resnet50) + mixed architecture (build_resnet50_v2).   
++ `code/models/resnet.py`. ResNet-50 implementation (*build_resnet50*) + mixed architecture (*build_resnet50_v2*).   
 + `other_scripts/analyze_dataset.py`. Analyzes the elements per class in the train/validation/test splits of a dataset.   
 + `other_scripts/run_experiments.py`. Bash script to execute all experiments on object recognition.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder.   
