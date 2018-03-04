@@ -54,21 +54,20 @@
     python train.py -c config/resnet_tt100k_classif_finetune.py -e resnet_tt100k_classif_finetune
     ```  
     
-    - Boost performance (Data augmentation) **[TT100K dataset]**
+    - Retrain all layers using ImageNet weights as initialization **[TT100K dataset]**
+    
+    ```
+    python train.py -c config/resnet_tt100k_classif_dataaug.py -e resnet_tt100k_classif_dataaug
+    ```   
+    
+    - Boost performance experiment 1 (Data augmentation) **[TT100K dataset]**
  
     ```
     python train.py -c config/resnet_tt100k_classif_opt.py -e resnet_tt100k_classif_dataaug
     ```  
     
-    - Boost performance (Data augmentation + Drop-out layers) **[TT100K dataset]**
+    - Boost performance experiment 2 (resnet50_v2) **[TT100K dataset]**
  
     ```
-    python train.py -c config/resnet_tt100k_classif_dataaug_dropout.py -e resnet_tt100k_classif_dataaug_dropout
+    python train.py -c config/resnet_tt100k_classif_resnet50v2.py -e resnet_tt100k_classif_resnet50v2
     ```  
-    
-    - Boost performance (Data augmentation + Drop-out layers + Optimized Paramaters) **[TT100K dataset]**
- 
-    ```
-    python train.py -c config/resnet_tt100k_classif_dataaug_dropout_opt.py -e resnet_tt100k_classif_dataaug_dropout_opt
-    ``` 
-   
