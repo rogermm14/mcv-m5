@@ -19,7 +19,7 @@ You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpq
 You can check our slides [here](https://docs.google.com/presentation/d/1Vlk9INjR2pFve4IUYKt027kSwZSVRazxz6rFk_DsciM/edit?usp=sharing).
 
 ## Weights of the trained architectures
-You can download the weights associated to each experiment [here](https://drive.google.com/open?id=1E-GTzCvu4uPF5l0tL_0v8Tz-P6YeWMn2). Check the experiment names and description [here](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md). 
+You can download the weights associated to each experiment [here](https://drive.google.com/open?id=1E-GTzCvu4uPF5l0tL_0v8Tz-P6YeWMn2). Experiment names and description can be found [here](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md). 
 
 ## Week 1
 You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) **[1]**.
