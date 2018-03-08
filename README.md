@@ -16,7 +16,6 @@ Deep learning is employed to face 3 main tasks: object recognition, object detec
 You can check our Overleaf report [here](https://www.overleaf.com/read/mgdfttmpqkgx).
 
 ## Project slides
-<<<<<<< HEAD
 You can check our slides [here](https://docs.google.com/presentation/d/1Vlk9INjR2pFve4IUYKt027kSwZSVRazxz6rFk_DsciM/edit?usp=sharing).
 
 ## Weights of the trained architectures
@@ -56,7 +55,6 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 + `other_scripts/run_experiments.py`. Bash script to execute all experiments on object recognition.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder.   
 
-
 ## References
 
 **[1]** Simonyan, Karen, and Andrew Zisserman. *Very deep convolutional networks for large-scale image recognition.* arXiv preprint arXiv:1409.1556 (2014).   
@@ -65,67 +63,3 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 **[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.   
 **[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
 **[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.  
-=======
-- Google slides for [Week 1](https://docs.google.com/presentation/d/1A6hgbNn8N-Iq8MhSa_RPIyf87DBL6PCtoDzy1zqS5Xs/edit?usp=sharing)
-- Google slides for [Week 2](https://docs.google.com/presentation/d/1Q69lmzPzgtc4lDw8dr9yyFY_T9JXhjJgL4ShyxFJk3M/edit?usp=sharing)
-- Google slides for [Week 3](https://docs.google.com/presentation/d/1WuzVeTwUL65Dnki3vsBJgHXwKffrFanwXbmR_URkLQQ/edit?usp=sharing)
-- Google slides for Week 4 (T.B.A.) 
-- Google slides for Week 5 (T.B.A.)
-- Google slides for Week 6 (T.B.A.)
-- Google slides for Week 7 (T.B.A.)
-
-## Peer review
-- Intra-group evaluation form for Week 2 (T.B.A.)
-- Intra-group evaluation form for Weeks 3/4 (T.B.A.)
-- Intra-group evaluation form for Weeks 5/6 (T.B.A.)
-- Intra-group evaluation form for Week 7 (T.B.A.)
-
-## News
- - Improve your GitHub account following [this document](https://docs.google.com/document/d/14oxSKWBbMajIB5Bn2CM-DNb-vychY1f393qYfsHNJfY/edit?usp=sharing)
-
-## Groups
-
- - [Group 01](https://github.com/guillemdelgado/mcv-m5)
-     - Francisco Roldán Sánchez
-     - Guillem Delgado Gonzalo
-     - Jordi Gené Mola 
-
- - [Group 02](https://github.com/rogermm14/mcv-m5)
-     - Roger Marí Molas
-     - Joan Sintes Marcos
-     - Alex Palomo Dominguez
-     - Alex Vicente Sola
-
- - [Group 04](https://github.com/mcvavteam/mcv-m5)
-     - Mikel Menta Garde
-     - Alex Valles Fernandez
-     - Sebastian Camilo Maya Hernández
-     - Pedro Luis Trigueros Mondéjar
-
- - [Group 05](https://github.com/marc-gorriz/mcv-m5)
-     - Guillermo Eduardo Torres
-     - Marc Górriz Blanch
-     - Cristina Maldonado Moncada
-
- - [Group 06](https://github.com/yixiao1/mcv-m5)
-     - Juan Felipe Montesinos Garcia
-     - Ferran Carrasquer Mas
-     - Yi Xiao
-
- - [Group 07](https://github.com/ArnauVallve94/mcv-m5)
-     - Yevgeniy Kadranov
-     - Santiago Barbarisi
-     - Arnau Vallvé Gispert
-
- - [Group 08](https://github.com/jonpoveda/scene-understanding-for-autonomous-vehicles)
-     - Ferran Pérez Gamonal
-     - Joan Francesc Serracant Lorenzo
-     - Jonatan Poveda Pena
-     - Martí Cobos Arnalot
- 
- - [Group 09](https://github.com/BourbonCreams/mcv-m5)
-     - Lorenzo Betto
-     - Noa Mor
-     - Ana Caballero Cano
-     - Ivan Caminal Colell
->>>>>>> a9abc180a57f88c5dc72a682e6bedf9f1eacffd3
