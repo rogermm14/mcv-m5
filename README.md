@@ -47,7 +47,11 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 4. **Boost perfromance of the network**    
   - [x] Retrain all layers of ResNet-50 using ImageNet weights as initialization.      
   - [x] Use data augmentation to boost the performance.       
-  - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).       
+  - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).
+
+## Week 3
+You can find our summary of the YOLO paper [here](https://www.overleaf.com/14784830gcsygvmrfzhg#/56350076/) **[7]**.
+Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 
 #### Contributions to the code:    
 + `code/models/resnet.py`. ResNet-50 implementation (*build_resnet50*) + mixed architecture (*build_resnet50_v2*).   
@@ -62,4 +66,6 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 **[3]**  Zhu, Zhe, et al. *Traffic-sign detection and classification in the wild.* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.   
 **[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.   
 **[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
-**[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.  
+**[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.
+**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You only look once: Unified, real-time object detection. arXiv preprint arXiv:1506.02640, 2015.
+**[8]** S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. arXiv preprint arXiv:1506.01497, 2015.
