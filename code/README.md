@@ -112,7 +112,6 @@ To run all experiments:
     python test_frcnn.py -p ../Datasets/detection/TT100K_detection/test
     cd ../other_scripts
     python evaluate_frcnn_TT100K_detection.py
-
     ```  
     ```  
     rm -r ../frcnn/predictions
