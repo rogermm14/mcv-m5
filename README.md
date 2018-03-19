@@ -80,8 +80,8 @@ Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 
 #### Contributions to the code:    
 + `frcnn/*`. Faster R-CNN implementation as readapted from https://github.com/yhenon/keras-frcnn.  
-+ `other_scripts/create_gt_frcnn_*.py`. Rewrites the labels of a dataset in the necessary format to be input to Faster R-CNN.
-+ `other_scripts/evaluate_frcnn_*.py`. Returns F-score, Precision and Recall for a set of predictions of the Faster R-CNN.
++ `other_scripts/create_gt_frcnn_*.py`. Writes the labels of a dataset in the format required by the Faster R-CNN.
++ `other_scripts/evaluate_frcnn_*.py`. Computes F-score, Precision and Recall of the predictions of the Faster R-CNN.
 + `other_scripts/analyze_dataset_*.py`. Analyzes elements per class in the train/val/test splits of a given dataset
 + `other_scripts/run_experiments_week3.py`. Bash script to execute all experiments on object detection.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder. 
