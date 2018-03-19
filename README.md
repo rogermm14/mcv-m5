@@ -75,7 +75,7 @@ Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 4. **Train Faster R-CNN using Udacity dataset**        
   - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
   - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.  
-4. **Boost perfromance of the network**     
+5. **Boost perfromance of the network**     
   - [x] Use data augmentation to boost the performance of YOLO.
 
 #### Contributions to the code:    
