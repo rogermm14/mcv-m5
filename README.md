@@ -21,14 +21,12 @@ You can check our slides [here](https://docs.google.com/presentation/d/1Vlk9INjR
 ## Weights of the trained architectures
 You can download the weights associated to each experiment [here](https://drive.google.com/open?id=1E-GTzCvu4uPF5l0tL_0v8Tz-P6YeWMn2). Experiment names and description can be found [here](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md). 
 
-## Week 1
-You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) **[1]**.
-Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) **[2]**.
-
-## Week 2
+## Weeks 1-2. Object recognition
 Evaluation and comparison of the performance of the VGG-16 and the ResNet-50 architectures for object recogniton.    
 The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset **[3]** and the Belgium Traffic Sign ([BelgiumTS](http://btsd.ethz.ch/shareddata/)) dataset **[4]** are used to train for traffic sign recognition. The [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php) dataset **[5]** is used to train for recognition of vehicles, pedestrians and cyclists.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
+You can find our summary of the VGG paper [here](https://www.overleaf.com/read/bpwcjjmpnnsy) **[1]**.
+Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/qwdjmppkrpcg) **[2]**.
 
 #### Completed tasks:
 
@@ -49,15 +47,36 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
   - [x] Use data augmentation to boost the performance.       
   - [x] Experiment with a mixed architecture (conv. net from ResNet-50 + fully connected layers from VGG-16).
 
-## Week 3
-You can find our summary of the YOLO paper [here](https://www.overleaf.com/14784830gcsygvmrfzhg#/56350076/) **[7]**.
-Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
-
 #### Contributions to the code:    
 + `code/models/resnet.py`. ResNet-50 implementation (*build_resnet50*) + mixed architecture (*build_resnet50_v2*).   
 + `other_scripts/analyze_dataset.py`. Analyzes the elements per class in the train/validation/test splits of a dataset.   
-+ `other_scripts/run_experiments.py`. Bash script to execute all experiments on object recognition.   
++ `other_scripts/run_experiments_week2.py`. Bash script to execute all experiments on object recognition.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder.   
+
+## Weeks 3-4. Object detection
+Evaluation and comparison of the performance of the YOLO and the Faster R-CNN architectures for object detection.    
+The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset (for detection) **[3]** is used to train for traffic sign detection, while the ([Udacity](https://github.com/udacity/self-driving-car/tree/master/annotations) annotated driving dataset **[4]** is used to train for detection of pedestrians, cars and trucks.    
+See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.
+You can find our summary of the YOLO paper [here](https://www.overleaf.com/14784830gcsygvmrfzhg#/56350076/) **[7]**.
+Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
+
+1. **Train YOLO using TT100K_detection dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for 10 epochs.    
+  - [x] Analyze train/validation/test sets and visualize/interpret results.     
+  - [x] Compute F-score and FPS.   
+2. **Train YOLO using Udacity dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for 40 epochs.    
+  - [x] Analyze train/validation/test sets and visualize/interpret results.     
+  - [x] Compute F-score and FPS.       
+3. **Train Faster R-CNN using TT100K_detection dataset**    
+  - [x] Implementation of Faster R-CNN based on ResNet-50 with Keras and integration to the framework.      
+  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
+  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.
+4. **Train Faster R-CNN using Udacity dataset**        
+  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
+  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.  
+4. **Boost perfromance of the network**     
+  - [x] Use data augmentation to boost the performance of YOLO.
 
 ## References
 
@@ -67,5 +86,5 @@ Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 **[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.   
 **[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
 **[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.
-**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You only look once: Unified, real-time object detection. arXiv preprint arXiv:1506.02640, 2015.
-**[8]** S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. arXiv preprint arXiv:1506.01497, 2015.
+**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You only look once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.
+**[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster r-cnn: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.
