@@ -55,7 +55,7 @@ Also, find our summary of the ResNet paper [here](https://www.overleaf.com/read/
 
 ## Weeks 3-4. Object detection
 Evaluation and comparison of the performance of the YOLO and the Faster R-CNN architectures for object detection.    
-The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset (for detection) **[3]** is used to train for traffic sign detection, while the [Udacity](https://github.com/udacity/self-driving-car/tree/master/annotations) annotated driving dataset **[4]** is used to train for detection of pedestrians, cars and trucks.    
+The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset (for detection) **[3]** is used to train for traffic sign detection, while the [Udacity](https://github.com/udacity/self-driving-car/tree/master/annotations) annotated driving dataset is used to train for detection of pedestrians, cars and trucks.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.    
 You can find our summary of the YOLO paper [here](https://www.overleaf.com/14784830gcsygvmrfzhg#/56350076/) **[7]**.    
 Also, find our summary of the Faster R-CNN paper [here]() **[8]**.    
@@ -81,7 +81,7 @@ Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 #### Contributions to the code:    
 + `frcnn/*`. Faster R-CNN implementation as readapted from https://github.com/yhenon/keras-frcnn.  
 + `other_scripts/create_gt_frcnn_*.py`. Writes the labels of a dataset in the format required by the Faster R-CNN.
-+ `other_scripts/evaluate_frcnn_*.py`. Computes F-score, Precision and Recall of the predictions of the Faster R-CNN.
++ `other_scripts/evaluate_frcnn_*.py`. Computes F-score, Precision and Recall for Faster R-CNN.
 + `other_scripts/analyze_dataset_*.py`. Analyzes elements per class in the train/val/test splits of a given dataset
 + `other_scripts/run_experiments_week3.py`. Bash script to execute all experiments on object detection.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder. 
@@ -93,6 +93,6 @@ Also, find our summary of the Faster R-CNN paper [here]() **[8]**.
 **[3]**  Zhu, Zhe, et al. *Traffic-sign detection and classification in the wild.* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.   
 **[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.   
 **[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
-**[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.
-**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You only look once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.
+**[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.    
+**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You only look once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.   
 **[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster r-cnn: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.
