@@ -1,13 +1,13 @@
 # About how to run the code
 
-## Object recognition
+## Weeks 1-2. Object recognition
 
 To run all experiments:  
     ```
     cd ../other_scripts  
     ```    
     ```
-    bash run_object_recognition_experiments.sh
+    bash run_experiments_week2.sh
     ```
 
 - **Experiments with VGG-16:**    
@@ -68,3 +68,38 @@ To run all experiments:
     ```
     python train.py -c config/resnet_tt100k_classif_resnet50v2.py -e resnet_tt100k_classif_resnet50v2
     ```  
+
+## Weeks 3-4. Object detection
+
+To run all experiments:  
+    ```
+    cd ../other_scripts  
+    ```    
+    ```
+    bash run_experiments_week3.sh
+    ```
+
+- **Experiments with YOLO:**    
+ 
+    - Baseline **[TT100K dataset]**
+    ```
+    python train.py -c config/yolo_tt100k_detection.py -e yolo_tt100k_detection 
+    ```
+    
+    - Baseline  **[Udacity dataset]**
+    ```
+    python train.py -c config/yolo_Udacity_detection.py -e yolo_Udacity_detection  
+    ```    
+
+    - Baseline + data augmentation **[TT100K dataset]**
+    ```
+    python train.py -c config/yolo_dataaug_tt100k_detection.py -e yolo_dataaug_tt100k_detection
+    ```
+    
+    - Baseline + data augmentation  **[Udacity dataset]**
+    ```
+    python train.py -c config/yolo_dataaug_Udacity_detection.py -e yolo_dataaug_Udacity_detection  
+    ```   
+    
+    
+    
