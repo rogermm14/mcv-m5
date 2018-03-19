@@ -58,7 +58,7 @@ Evaluation and comparison of the performance of the YOLO and the Faster R-CNN ar
 The TSingHua-TenCent 100K ([TT100K](http://cg.cs.tsinghua.edu.cn/traffic-sign/)) dataset (for detection) **[3]** is used to train for traffic sign detection, while the [Udacity](https://github.com/udacity/self-driving-car/tree/master/annotations) annotated driving dataset is used to train for detection of pedestrians, cars and trucks.    
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.    
 You can find our summary of the YOLO paper [here](https://www.overleaf.com/14784830gcsygvmrfzhg#/56350076/) **[7]**.    
-Also, find our summary of the Faster R-CNN paper [here]() **[8]**.    
+Also, find our summary of the Faster R-CNN paper [here](https://www.overleaf.com/14805881bgxnzrqkkxbh#/56402342/) **[8]**.    
 
 1. **Train YOLO using TT100K_detection dataset**   
   - [x] ImageNet weights for initialization + re-train all layers for 10 epochs.    
