@@ -129,6 +129,6 @@ Also, find our summary of the Faster Segnet paper [here](https://www.overleaf.co
 **[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
 **[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.    
 **[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You Only Look Once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.   
-**[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster R-CNN: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.
-**[9]** Long, Jonathan, Evan Shelhamer, and Trevor Darrell. *Fully convolutional networks for semantic segmentation.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2015.
-**[10]** Badrinarayanan, Vijay, Alex Kendall, and Roberto Cipolla. *Segnet: A deep convolutional encoder-decoder architecture for image segmentation.* IEEE Transactions on Pattern Analysis and Machine Intelligence 39.12 (2017): 2481-2495.
+**[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster R-CNN: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.    
+**[9]** Long, Jonathan, Evan Shelhamer, and Trevor Darrell. *Fully convolutional networks for semantic segmentation.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2015.    
+**[10]** Badrinarayanan, Vijay, Alex Kendall, and Roberto Cipolla. *Segnet: A deep convolutional encoder-decoder architecture for image segmentation.* IEEE Transactions on Pattern Analysis and Machine Intelligence 39.12 (2017): 2481-2495.   
