@@ -86,13 +86,49 @@ Also, find our summary of the Faster R-CNN paper [here](https://www.overleaf.com
 + `other_scripts/run_experiments_week3.py`. Bash script to execute all experiments on object detection.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder. 
 
+## Weeks 5-6. Semantic segmentation
+Evaluation and comparison of the performance of the FCN8 and the Segnet-VGG16 architectures for object detection.    
+The Cambridge-driving Video Database ([CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)) and the [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php) vision benchmark (segmentation dataset) are used is used to train for segmentation between sky, buildings, trees, road, sidewalk, cars, pedestrians, cyclists and traffic signs among others.     
+See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.    
+You can find our summary of the FCNs paper [here](https://www.overleaf.com/read/ypxrbqsknktm) **[9]**.    
+Also, find our summary of the Faster Segnet paper [here](https://www.overleaf.com/read/qrmdqyjfzcvm) **[10]**.    
+
+1. **Train YOLO using TT100K_detection dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for 10 epochs.    
+  - [x] Analyze train/validation/test sets and visualize/interpret results.     
+  - [x] Compute F-score and FPS.   
+2. **Train YOLO using Udacity dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for 40 epochs.    
+  - [x] Analyze train/validation/test sets and visualize/interpret results.     
+  - [x] Compute F-score and FPS.       
+3. **Train Faster R-CNN using TT100K_detection dataset**    
+  - [x] Implementation of Faster R-CNN based on ResNet-50 with Keras and integration to the framework.      
+  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
+  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.
+4. **Train Faster R-CNN using Udacity dataset**        
+  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
+  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.  
+5. **Boost perfromance of the network**     
+  - [x] Use data augmentation to boost the performance of YOLO.
+
+#### Contributions to the code:    
++ `frcnn/*`. Faster R-CNN implementation as readapted from https://github.com/yhenon/keras-frcnn.  
++ `other_scripts/create_gt_frcnn_*.py`. Writes the labels of a dataset in the format required by the Faster R-CNN.
++ `other_scripts/evaluate_frcnn_*.py`. Computes F-score, Precision and Recall for Faster R-CNN.
++ `other_scripts/analyze_dataset_*.py`. Analyzes elements per class in the train/val/test splits of a given dataset
++ `other_scripts/run_experiments_week3.py`. Bash script to execute all experiments on object detection.   
++ `code/config/*`. The configuration files of all the conducted experiments can be found in this folder. 
+
+
 ## References
 
 **[1]** Simonyan, Karen, and Andrew Zisserman. *Very deep convolutional networks for large-scale image recognition.* arXiv preprint arXiv:1409.1556 (2014).   
 **[2]** He, Kaiming, et al. *Deep residual learning for image recognition.* Proceedings of the IEEE Conference on Computer vision and Pattern Recognition (CVPR). 2016.   
 **[3]**  Zhu, Zhe, et al. *Traffic-sign detection and classification in the wild.* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2016.   
 **[4]** Timofte, Radu, Karel Zimmermann, and Luc Van Gool. *Multi-view traffic sign detection, recognition, and 3d localisation.* Machine Vision and Applications 25.3 (2014): 633-647.   
-**[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? the kitti vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
+**[5]** Geiger, Andreas, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2012.   
 **[6]** Deng, Jia, et al. *Imagenet: A large-scale hierarchical image database.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2009.    
-**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You only look once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.   
-**[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster r-cnn: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.
+**[7]** J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. *You Only Look Once: Unified, real-time object detection.* arXiv preprint arXiv:1506.02640, 2015.   
+**[8]** S. Ren, K. He, R. Girshick, and J. Sun. *Faster R-CNN: Towards real-time object detection with region proposal networks.* arXiv preprint arXiv:1506.01497, 2015.
+**[9]** Long, Jonathan, Evan Shelhamer, and Trevor Darrell. *Fully convolutional networks for semantic segmentation.* IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2015.
+**[10]** Badrinarayanan, Vijay, Alex Kendall, and Roberto Cipolla. *Segnet: A deep convolutional encoder-decoder architecture for image segmentation.* IEEE Transactions on Pattern Analysis and Machine Intelligence 39.12 (2017): 2481-2495.
