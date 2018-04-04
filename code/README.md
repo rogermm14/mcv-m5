@@ -130,3 +130,42 @@ To run all experiments:
     python evaluate_frcnn_Udacity.py
     ```
     
+## Weeks 5-6. Semantic segmentation
+
+To run all experiments:  
+    ```
+    cd ../other_scripts  
+    ```    
+    ```
+    bash run_experiments_week5.sh
+    ```
+
+- **Experiments with FCN8:**    
+ 
+    - Baseline **[CamVid dataset]**
+    ```
+    python train.py -c config/fcn8_camvid_segmentation.py -e fcn8_camvid_segmentation
+    ```
+    
+    - Baseline  **[KITTI seg. dataset]**
+    ```
+    python train.py -c config/fcn8_kitti_segmentation.py -e fcn8_kitti_segmentation
+    ```    
+    
+- **Experiments with SegNet:**    
+ 
+    - SegNet-VGG16 (baseline train strategy, no ImageNet init.) **[CamVid dataset]**
+    ```
+    python train.py -c config/segnet-vgg16_camvid_segmentation.py -e segnet-vgg16_camvid_segmentation
+    ```
+    
+    - SegNet-Basic (baseline train strategy, no ImageNet init.)  **[CamVid dataset]**
+    ```
+    python train.py -c config/segnet-basic_camvid_segmentation.py -e segnet-basic_camvid_segmentation
+    ```    
+
+    - SegNet-VGG16 (customized train strategy) **[KITTI seg. dataset]**
+    ```
+    python train.py -c config/segnet-vgg16_kitti_segmentation.py -e segnet-vgg16_kitti_segmentation
+    ```
+    
