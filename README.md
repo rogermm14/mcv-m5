@@ -88,7 +88,7 @@ Also, find our summary of the Faster R-CNN paper [here](https://www.overleaf.com
 
 ## Weeks 5-6. Semantic segmentation
 Evaluation and comparison of the performance of the FCN8 and the Segnet-VGG16 architectures for object detection.    
-The Cambridge-driving Video Database ([CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)) and the [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php) vision benchmark (segmentation dataset) are used is used to train for segmentation between sky, buildings, trees, road, sidewalk, cars, pedestrians, cyclists and traffic signs among others.     
+The Cambridge-driving Video Database ([CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)) and the [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php) vision benchmark (segmentation dataset) are used to train for segmentation between sky, buildings, trees, road, sidewalk, cars, pedestrians, cyclists and traffic signs among others.     
 See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md) to gain further insight about how to run the code for the different experiments.    
 You can find our summary of the FCNs paper [here](https://www.overleaf.com/read/ypxrbqsknktm) **[9]**.    
 Also, find our summary of the Faster Segnet paper [here](https://www.overleaf.com/read/qrmdqyjfzcvm) **[10]**.    
