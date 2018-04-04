@@ -1,15 +1,13 @@
 # !/bin/bash
 
-# Execute experiment's list
-
-# Baseline [TT100K dataset]
+# Execute experiments list
 
 cd ..
 cd code
 
 # ---------- VGG ------------
 
-#### Baseline code
+#### Baseline code [TT100K dataset]
 
 python train.py -c config/vgg_tt100k_classif.py -e vgg_tt100k_classif
 
