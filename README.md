@@ -60,6 +60,8 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 You can find our summary of the YOLO paper [here](https://www.overleaf.com/read/nxyhrzmzzcvv) **[7]**.    
 Also, find our summary of the Faster R-CNN paper [here](https://www.overleaf.com/read/brvvzhryqhrx) **[8]**.    
 
+#### Completed tasks:
+
 1. **Train YOLO using TT100K_detection dataset**   
   - [x] ImageNet weights for initialization + re-train all layers for 10 epochs.    
   - [x] Analyze train/validation/test sets and visualize/interpret results.     
@@ -93,30 +95,34 @@ See this [README](https://github.com/rogermm14/mcv-m5/blob/master/code/README.md
 You can find our summary of the FCNs paper [here](https://www.overleaf.com/read/ypxrbqsknktm) **[9]**.    
 Also, find our summary of the Faster Segnet paper [here](https://www.overleaf.com/read/qrmdqyjfzcvm) **[10]**.    
 
-1. **Train YOLO using TT100K_detection dataset**   
-  - [x] ImageNet weights for initialization + re-train all layers for 10 epochs.    
-  - [x] Analyze train/validation/test sets and visualize/interpret results.     
-  - [x] Compute F-score and FPS.   
-2. **Train YOLO using Udacity dataset**   
-  - [x] ImageNet weights for initialization + re-train all layers for 40 epochs.    
-  - [x] Analyze train/validation/test sets and visualize/interpret results.     
-  - [x] Compute F-score and FPS.       
-3. **Train Faster R-CNN using TT100K_detection dataset**    
-  - [x] Implementation of Faster R-CNN based on ResNet-50 with Keras and integration to the framework.      
-  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
-  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.
-4. **Train Faster R-CNN using Udacity dataset**        
-  - [x] ImageNet weights for initialization + re-train all layers for 30 epochs.      
-  - [x] Adjustment of detection threshold to keep a good compromise between Precision and Recall.  
-5. **Boost perfromance of the network**     
-  - [x] Use data augmentation to boost the performance of YOLO.
+#### Completed tasks:
+
+1. **Train FCN8 using CamVid dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for a max of 1000 epochs (with early stopping).    
+  - [x] Analyze train/validation/test sets from a quantitative and a qualitative point of view.   
+  - [x] Compute Pixel accuracy, Jaccard coefficient (IoU) and FPS.   
+2. **Train YOLO using KITTI (segmentation) dataset**   
+  - [x] ImageNet weights for initialization + re-train all layers for a max of 1000 epochs (with early stopping).
+  - [x] Analyze train/validation/test sets from a quantitative and a qualitative point of view.
+  - [x] Compute Pixel accuracy, Jaccard coefficient (IoU) and FPS.        
+3. **Train SegNet using CamVid dataset**    
+  - [x] Two different SegNet architectures implemented: SegNet-VGG16 (full model) and SegNet-Basic (compact variant).    
+  - [x] Train all layers from scratch a max of 1000 epochs (with early stopping).     
+  - [x] Visualize resulting segmented images and compare with the rest of architectures.
+4. **Train U-Net using CamVid dataset**       
+  - [x] Train all layers from scratch like in the previous task + data augmentation.    
+  - [x] Visualize resulting segmented images and compare with the rest of architectures.
+5. **Train SegNet using KITTI (segmentation) dataset**        
+  - [x] Train all layers from scratch with a larger LR (0.01) and a different optimizer (Adam). 
+  - [x] Used a learning rate scheduler callback to decrease the LR at epochs 20, 40, 60 (decay rate = 5). 
+  - [x] Visualize resulting segmented images and compare with the rest of architectures.
 
 #### Contributions to the code:    
-+ `frcnn/*`. Faster R-CNN implementation as readapted from https://github.com/yhenon/keras-frcnn.  
-+ `other_scripts/create_gt_frcnn_*.py`. Writes the labels of a dataset in the format required by the Faster R-CNN.
-+ `other_scripts/evaluate_frcnn_*.py`. Computes F-score, Precision and Recall for Faster R-CNN.
-+ `other_scripts/analyze_dataset_*.py`. Analyzes elements per class in the train/val/test splits of a given dataset
-+ `other_scripts/run_experiments_week3.py`. Bash script to execute all experiments on object detection.   
++ `code/models/segnet.py`. Implementation of SegNet-VGG16 and SegNet-Basic architectures.
++ `code/models/segnet_v2.py`. Implementation of SegNet-VGG16 able to load ImageNet weights.
++ `code/models/unet.py`. Implementation of U-Net architecture.
++ `other_scripts/analyze_dataset_seg_*.py`. Analyzes pixels per class in the train/val/test splits of a given dataset
++ `other_scripts/run_experiments_week5.py`. Bash script to execute all experiments on semantic segmentation.   
 + `code/config/*`. The configuration files of all the conducted experiments can be found in this folder. 
 
 
