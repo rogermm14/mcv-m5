@@ -1,8 +1,6 @@
 # !/bin/bash
 
-# Execute experiment's list
-
-# Baseline [TT100K dataset]
+# Execute experiments list
 
 cd ..
 cd code
