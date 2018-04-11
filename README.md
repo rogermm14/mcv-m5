@@ -2,7 +2,7 @@
 Master in Computer Vision, Barcelona (2017-2018) - M5 Visual Recognition
 
 ## About us
-Name of the group: TEAM 03
+Name of the group: TEAM 03    
 [Roger Marí](https://github.com/rogermm14). Email: roger.mari01@estudiant.upf.edu  
 [Joan Sintes](https://github.com/JoSintes8). Email: joan.sintes01@estudiant.upf.edu  
 [Àlex Palomo](https://github.com/alexpalomodominguez). Email: alex.palomo01@estudiant.upf.edu  
