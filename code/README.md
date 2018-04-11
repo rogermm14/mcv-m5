@@ -171,7 +171,7 @@ To run all experiments:
     
 - **Experiments with U-Net:**      
  
-    - U-Nett (customized train strategy, no ImageNet init.) **[CamVid dataset]**   
+    - U-Net (customized train strategy, no ImageNet init.) **[CamVid dataset]**   
     ```
     python train.py -c config/unet_camvid_segmentation.py -e unet_camvid_segmentation    
     ```
